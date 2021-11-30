@@ -140,9 +140,9 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #2e80bf;
 }
-
+/*changed here from 004d40*/
 /* main blockqoute */
 
 /* blockquote {
@@ -200,7 +200,7 @@ nav i {
 } */
 
 main {
-  background: url(../../assets/img/bg.png) repeat;
+  background: url(../../assets/img/iiith.png) repeat;
   padding-left: 190px;
 }
 
@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #005580 repeat;
+  background: #004d40 repeat;
   position: relative;
 }
 
