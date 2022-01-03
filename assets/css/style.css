@@ -75,6 +75,7 @@
   background-color: grey;
 }
 
+
 .github:hover {
   background-color: black;
 }
@@ -443,11 +444,11 @@ h3 {
 
 .card ul li li {
   color: #666;
-  font-size: 13px;
+  font-size: 3px;
 }
 
 .card .card-title {
-  font-size: 24px;
+  font-size: 4px;
 }
 
 .card .card-content .card-title {
@@ -550,7 +551,7 @@ small {
 
 @media (max-width: 1360px) {
   .card ul li {
-    font-size: 14px;
+    font-size: 4px;
     line-height: 200%;
     margin-left: 20px;
   }
