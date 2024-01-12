@@ -886,6 +886,71 @@ ul.timeline li .data .text {
 	-webkit-box-shadow: inset 0px 3px 5px -3px #0e0e0e;
 	box-shadow: inset 0px 3px 5px -3px #0e0e0e;
 }
+#magna_international {
+    list-style-type: none; /* Removes the bullet point */
+}
+#robotire {
+    list-style-type: none; /* Removes the bullet point */
+}
+#ford_center_for_autonomous_vehicles {
+    list-style-type: none; /* Removes the bullet point */
+}
+#robotics_research_center {
+    list-style-type: none; /* Removes the bullet point */
+}
+#e-yantra {
+    list-style-type: none; /* Removes the bullet point */
+}
+#robotics_innovations_lab {
+    list-style-type: none; /* Removes the bullet point */
+}
+#autonomous_safe_landing_uav {
+    list-style-type: none; /* Removes the bullet point */
+}
+#mapping_and_localization {
+    list-style-type: none; /* Removes the bullet point */
+}
+#pushr_perception {
+    list-style-type: none; /* Removes the bullet point */
+}
+#rrt_planning {
+    list-style-type: none; /* Removes the bullet point */
+}
+#vikram {
+    list-style-type: none; /* Removes the bullet point */
+}
+#balancing_robot {
+    list-style-type: none; /* Removes the bullet point */
+}
+#arm_imitation {
+    list-style-type: none; /* Removes the bullet point */
+}
+#gsi {
+    list-style-type: none; /* Removes the bullet point */
+}
+#algorithmic_robotics {
+    list-style-type: none; /* Removes the bullet point */
+}
+#armlab {
+    list-style-type: none; /* Removes the bullet point */
+}
+#botlab {
+    list-style-type: none; /* Removes the bullet point */
+}
+#mobile_robotics {
+    list-style-type: none; /* Removes the bullet point */
+}
+#robotic_manipulation {
+    list-style-type: none; /* Removes the bullet point */
+}
+#computer_vision {
+    list-style-type: none; /* Removes the bullet point */
+}
+
+
+.ul-withdetails, .ul-withdetails li {
+    list-style-type: none; /* Removes the bullet point from the list and all list items within */
+}
 
 /*************************************************
  * lab partnerts
