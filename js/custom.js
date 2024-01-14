@@ -377,6 +377,8 @@ $(document).ready(function(){
 });
 
 
+
+
 $(window).load(function(){
 
 	/*++++++++++++++++++++++++++++++++++++
@@ -388,4 +390,42 @@ $(window).load(function(){
 	  itemSelector: 'li'
 	});
 	
+});
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to simulate a click event
+    function simulateClick(element) {
+        var evt = new MouseEvent("click", {
+            bubbles: true,
+            cancelable: true,
+            view: window
+        });
+        element.dispatchEvent(evt);
+    };
+
+    // Function to handle scroll and click for a given section
+    function handleSectionScrollAndClick(sectionId) {
+        var sectionElement = document.getElementById(sectionId);
+        if (sectionElement) {
+            sectionElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+            // Wait for the scroll to complete plus an additional delay for safety
+            setTimeout(function() {
+                var imageOverlay = sectionElement.querySelector('.imageoverlay');
+                if (imageOverlay) {
+                    simulateClick(imageOverlay);
+                }
+            }, 1500); // Adjust the timeout to ensure scrolling is finished
+        }
+    }
+
+    // Get the current URL fragment (after the #)
+    var currentFragment = window.location.hash.substring(1);
+
+    // Array of section IDs
+    var sectionIds = ['robotics_innovations_lab','e-yantra','robotics_research_center','ford_center_for_autonomous_vehicles','robotire','magna_international','arm_imitation','balancing_robot','vikram','rrt_planning','pushr_perception','mapping_and_localization','autonomous_safe_landing_uav','botlab','armlab','gsi','algorithmic_robotics','mobile_robotics','robotic_manipulation', 'computer_vision'];
+
+    // Check if the current URL fragment matches any of the section IDs
+    if (sectionIds.includes(currentFragment)) {
+        handleSectionScrollAndClick(currentFragment);
+    }
 });

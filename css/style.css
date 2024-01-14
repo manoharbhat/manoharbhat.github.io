@@ -947,6 +947,14 @@ ul.timeline li .data .text {
     list-style-type: none; /* Removes the bullet point */
 }
 
+html {
+	scroll-behavior: smooth;
+  }
+.details {
+	display: none;
+	scroll-margin-top: 70px;  /* Adjust this value to the height of your fixed header */
+  }
+  
 
 .ul-withdetails, .ul-withdetails li {
     list-style-type: none; /* Removes the bullet point from the list and all list items within */
